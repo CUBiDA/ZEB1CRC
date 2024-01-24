@@ -69,3 +69,13 @@ orthotropic_wt <- load(orthotropic_wt)
 orthotropic_wt <- sce.data
 orthotropic_wt
 ```
+
+### Integrated AOM/DSS
+
+```{r}
+#
+integrated_aomdss <- system.file("extdata", "merged.rescaled2.RData", package = "ZEB1CRC")
+integrated_aomdss <- load(integrated_aomdss)
+integrated_aomdss <- merged.rescaled2
+integrated_aomdss
+```
