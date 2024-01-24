@@ -1,0 +1,71 @@
+---
+title: "ZEB1CRC Data Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ZEB1CRC Data Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installation
+
+The data package can be installed as follows:
+
+```{r, eval=FALSE}
+install.packages("remotes")
+remotes::install_github("cubida/ZEB1CRC")
+```
+
+## Exploring `SCE` data
+
+The Single Cell Experiment objects can be accessed as follows:
+
+### Load library
+
+```{r}
+library("ZEB1CRC")
+```
+
+### AOM/DSS KO 
+
+```{r}
+#
+aomdss_ko <- system.file("extdata", "aomdss.ko.sce.data.RData", package = "ZEB1CRC")
+aomdss_ko <- load(aomdss_ko)
+aomdss_ko <- sce.data
+aomdss_ko
+```
+
+### AOM/DSS WT
+
+```{r}
+#
+aomdss_wt <- system.file("extdata", "aomdss.wt.sce.data.RData", package = "ZEB1CRC")
+aomdss_wt <- load(aomdss_wt)
+aomdss_wt <- sce.data
+aomdss_wt
+```
+
+### Orthotropic KO
+
+```{r}
+#
+orthotropic_ko <- system.file("extdata", "orthotropic.ko.sce.data.RData", package = "ZEB1CRC")
+orthotropic_ko <- load(orthotropic_ko)
+orthotropic_ko <- sce.data
+orthotropic_ko
+```
+
+### Orthotropic WT
+
+```{r}
+#
+orthotropic_wt <- system.file("extdata", "orthotropic.wt.sce.data.RData", package = "ZEB1CRC")
+orthotropic_wt <- load(orthotropic_wt)
+orthotropic_wt <- sce.data
+orthotropic_wt
+```

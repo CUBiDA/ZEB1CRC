@@ -1,0 +1,21 @@
+Package: ZEB1CRC
+Type: Package
+Title: ZEB1-dependent modulation of fibroblast polarization governs inflammation and immune checkpoint blockade sensitivity in colorectal cancer.
+Version: 0.1.0
+Authors: c(
+    person("Pooja", "Gupta", role = c("aut")),
+    person("Anne", "Hartebrodt", role = c("aut")),
+    person("Manoj Kumar", "Selvaraju", email="manojkumar.selvaraju@uk-erlangen.de", role = c("cre", "aut")))
+Maintainer: CUBiDA <manojkumar.selvaraju@uk-erlangen.de>
+Description: ZEB1-dependent modulation of fibroblast polarization governs inflammation and immune checkpoint blockade sensitivity in colorectal cancer.
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5.0)
+Suggests: 
+    knitr,
+    R.rsp,
+    rmarkdown
+RoxygenNote: 7.3.0
+VignetteBuilder: knitr, R.rsp, rmarkdown

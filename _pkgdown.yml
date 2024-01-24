@@ -1,0 +1,23 @@
+url: ~
+template:
+  bootstrap: 5
+navbar:
+ components:
+   articles:
+    text: Articles
+    menu:
+    - text: "AOM/DSS Data"
+    - text: KO
+      href: articles/aomdss_KO.html
+    - text: WT
+      href: articles/aomdss_WT.html
+    - text: -------
+    - text: "Orthotropic Data"
+    - text: KO
+      href: articles/orthotopic_KO.html
+    - text: WT
+      href: articles/orthotopic_WT.html
+    - text: -------
+    - text: "Diff. Abundance"
+    - text: AOM DSS
+      href: articles/analysis_AOM_DSS.html
