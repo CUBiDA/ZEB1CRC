@@ -6,18 +6,15 @@ navbar:
    articles:
     text: Articles
     menu:
-    - text: "AOM/DSS Data"
-    - text: KO
+    - text: "AOM/DSS model - KO"
       href: articles/aomdss_KO.html
-    - text: WT
+    - text: "AOM/DSS model - WT"
       href: articles/aomdss_WT.html
     - text: -------
-    - text: "Orthotropic Data"
-    - text: KO
+    - text: "Orthotopic tumor - KO"
       href: articles/orthotopic_KO.html
-    - text: WT
+    - text: "Orthotopic tumor - WT"
       href: articles/orthotopic_WT.html
     - text: -------
-    - text: "Diff. Abundance"
-    - text: AOM DSS
+    - text: "Diff. abundance - AOM/DSS"
       href: articles/analysis_AOM_DSS.html
