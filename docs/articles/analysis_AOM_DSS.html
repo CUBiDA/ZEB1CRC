@@ -394,7 +394,7 @@ the notebook execution a results folder with various subdirectories will
 be created automatically and an html version of the notebook will be
 created in the directory where you execute this notebook.</p>
 <pre class="r"><code>## Your fully qualified base directory.
-analysis_dir&lt;-&#39;/home/bionets-og86asub/Documents/external_analyses/marc_stemmler&#39;
+analysis_dir&lt;-&#39;~/Documents/external_analyses/marc_stemmler/&#39;
 data_dir&lt;-file.path(analysis_dir, &#39;data&#39;)
 
 input_data&lt;-file.path(data_dir, &#39;merged.rescaled2.RData&#39;)
@@ -404,7 +404,7 @@ marker_file&lt;-file.path(data_dir, &#39;marker_genes.tsv.csv&#39;)</code></pre>
 <h3>Python env</h3>
 <p>DASeq relies on python. Make sure to update the python environment
 accordingy.</p>
-<pre class="r"><code>python_env&lt;-&#39;/home/bionets-og86asub/anaconda3/envs/daseq2/bin/python&#39;</code></pre>
+<pre class="r"><code>python_env&lt;-&#39;~/anaconda3/envs/daseq2/bin/python3&#39;</code></pre>
 </div>
 <div id="output-settings" class="section level3">
 <h3>Output settings</h3>
@@ -665,155 +665,155 @@ represent a generalizable discovery for all KO mice.</p>
   GPU = &#39;&#39;
 )</code></pre>
 <pre><code>## num_samples : 114
-## Epoch: 1000 train loss=1.064099193 valid loss= 1.114652514 valid acc= 0.944444418
-## train reg_fs: 0.9916090965270996
-## Epoch: 2000 train loss=0.961463630 valid loss= 1.042622566 valid acc= 0.944444418
-## train reg_fs: 0.9366564750671387
-## Epoch: 3000 train loss=0.895889938 valid loss= 0.991981030 valid acc= 0.944444418
-## train reg_fs: 0.8762122392654419
+## Epoch: 1000 train loss=1.046695828 valid loss= 1.043797851 valid acc= 1.000000000
+## train reg_fs: 0.9917962551116943
+## Epoch: 2000 train loss=0.974549890 valid loss= 0.975865960 valid acc= 1.000000000
+## train reg_fs: 0.9371622800827026
+## Epoch: 3000 train loss=0.908763587 valid loss= 0.919636726 valid acc= 1.000000000
+## train reg_fs: 0.8771899938583374
 ## Optimization Finished!
-## test loss: 0.991981029510498, test acc: 0.9444444179534912
-## 684
+## test loss: 0.9196367263793945, test acc: 1.0
+## 716
 ## num_samples : 114
-## Epoch: 1000 train loss=0.831805646 valid loss= 1.092200756 valid acc= 0.944444418
-## train reg_fs: 0.8127399682998657
-## Epoch: 2000 train loss=0.759265900 valid loss= 1.061283112 valid acc= 0.888888896
-## train reg_fs: 0.7470395565032959
-## Epoch: 3000 train loss=0.698081315 valid loss= 1.000771523 valid acc= 0.888888896
-## train reg_fs: 0.6814165711402893
+## Epoch: 1000 train loss=0.844590425 valid loss= 0.885044634 valid acc= 1.000000000
+## train reg_fs: 0.8142205476760864
+## Epoch: 2000 train loss=0.765868723 valid loss= 0.827748299 valid acc= 0.944444418
+## train reg_fs: 0.7495274543762207
+## Epoch: 3000 train loss=0.701694310 valid loss= 0.760835052 valid acc= 1.000000000
+## train reg_fs: 0.6849058866500854
 ## Optimization Finished!
-## test loss: 1.0007715225219727, test acc: 0.8888888955116272
-## 101
+## test loss: 0.7608350515365601, test acc: 1.0
+## 97
 ## num_samples : 114
-## Epoch: 1000 train loss=0.641123116 valid loss= 0.653252661 valid acc= 1.000000000
-## train reg_fs: 0.6181471347808838
-## Epoch: 2000 train loss=0.572857261 valid loss= 0.588671565 valid acc= 1.000000000
-## train reg_fs: 0.5582765936851501
-## Epoch: 3000 train loss=0.524312556 valid loss= 0.530427873 valid acc= 1.000000000
-## train reg_fs: 0.5026754140853882
+## Epoch: 1000 train loss=0.651630700 valid loss= 0.665259421 valid acc= 1.000000000
+## train reg_fs: 0.6218627691268921
+## Epoch: 2000 train loss=0.582408190 valid loss= 0.606567800 valid acc= 1.000000000
+## train reg_fs: 0.561877965927124
+## Epoch: 3000 train loss=0.519773245 valid loss= 0.553079665 valid acc= 1.000000000
+## train reg_fs: 0.5060113668441772
 ## Optimization Finished!
-## test loss: 0.530427873134613, test acc: 1.0
-## 61
+## test loss: 0.5530796647071838, test acc: 1.0
+## 65
 ## num_samples : 114
-## Epoch: 1000 train loss=0.474954993 valid loss= 0.492220461 valid acc= 1.000000000
-## train reg_fs: 0.4521356225013733
-## Epoch: 2000 train loss=0.427832454 valid loss= 0.443025947 valid acc= 1.000000000
-## train reg_fs: 0.4068072438240051
-## Epoch: 3000 train loss=0.386822462 valid loss= 0.399072677 valid acc= 1.000000000
-## train reg_fs: 0.3664816617965698
+## Epoch: 1000 train loss=0.501071990 valid loss= 0.539566278 valid acc= 0.944444418
+## train reg_fs: 0.4571804702281952
+## Epoch: 2000 train loss=0.467387408 valid loss= 0.486466348 valid acc= 0.944444418
+## train reg_fs: 0.41316932439804077
+## Epoch: 3000 train loss=0.397382945 valid loss= 0.437929630 valid acc= 0.944444418
+## train reg_fs: 0.3737944960594177
 ## Optimization Finished!
-## test loss: 0.39907267689704895, test acc: 1.0
-## 47
+## test loss: 0.437929630279541, test acc: 0.9444444179534912
+## 54
 ## num_samples : 114
-## Epoch: 1000 train loss=0.366564155 valid loss= 0.372982115 valid acc= 1.000000000
-## train reg_fs: 0.3313222825527191
-## Epoch: 2000 train loss=0.320696056 valid loss= 0.340625286 valid acc= 1.000000000
-## train reg_fs: 0.30042827129364014
-## Epoch: 3000 train loss=0.297890246 valid loss= 0.312619984 valid acc= 1.000000000
-## train reg_fs: 0.27331334352493286
+## Epoch: 1000 train loss=0.351103395 valid loss= 0.373511761 valid acc= 1.000000000
+## train reg_fs: 0.33759021759033203
+## Epoch: 2000 train loss=0.318421364 valid loss= 0.340284646 valid acc= 1.000000000
+## train reg_fs: 0.30549705028533936
+## Epoch: 3000 train loss=0.287361622 valid loss= 0.312105000 valid acc= 1.000000000
+## train reg_fs: 0.2773233950138092
 ## Optimization Finished!
-## test loss: 0.31261998414993286, test acc: 1.0
-## 45
+## test loss: 0.3121050000190735, test acc: 1.0
+## 48
 ## num_samples : 84
-## Epoch: 1000 train loss=1.014549136 valid loss= 1.004359484 valid acc= 1.000000000
-## train reg_fs: 0.9873751401901245
-## Epoch: 2000 train loss=0.942708135 valid loss= 0.946383774 valid acc= 1.000000000
-## train reg_fs: 0.9290058612823486
-## Epoch: 3000 train loss=0.875799835 valid loss= 0.894728303 valid acc= 1.000000000
-## train reg_fs: 0.8658879995346069
+## Epoch: 1000 train loss=1.000762701 valid loss= 1.001584053 valid acc= 1.000000000
+## train reg_fs: 0.987221360206604
+## Epoch: 2000 train loss=0.936720610 valid loss= 0.943250418 valid acc= 1.000000000
+## train reg_fs: 0.9279508590698242
+## Epoch: 3000 train loss=0.872979283 valid loss= 0.901977658 valid acc= 1.000000000
+## train reg_fs: 0.863950788974762
 ## Optimization Finished!
-## test loss: 0.8947283029556274, test acc: 1.0
-## 561
+## test loss: 0.9019776582717896, test acc: 1.0
+## 536
 ## num_samples : 84
-## Epoch: 1000 train loss=0.810440838 valid loss= 0.870671332 valid acc= 0.949999988
-## train reg_fs: 0.7997757196426392
-## Epoch: 2000 train loss=0.739574254 valid loss= 0.928636432 valid acc= 0.949999988
-## train reg_fs: 0.7322336435317993
-## Epoch: 3000 train loss=0.672819853 valid loss= 0.940779805 valid acc= 0.949999988
-## train reg_fs: 0.6654070019721985
+## Epoch: 1000 train loss=0.813439727 valid loss= 0.989051878 valid acc= 0.949999988
+## train reg_fs: 0.7984195947647095
+## Epoch: 2000 train loss=0.739849627 valid loss= 1.161535978 valid acc= 0.750000000
+## train reg_fs: 0.7314081788063049
+## Epoch: 3000 train loss=0.672549307 valid loss= 1.184564590 valid acc= 0.600000024
+## train reg_fs: 0.6649122834205627
 ## Optimization Finished!
-## test loss: 0.9407798051834106, test acc: 0.949999988079071
+## test loss: 1.1845645904541016, test acc: 0.6000000238418579
+## 49
+## num_samples : 84
+## Epoch: 1000 train loss=0.616423845 valid loss= 1.061165094 valid acc= 0.649999976
+## train reg_fs: 0.6004747152328491
+## Epoch: 2000 train loss=0.549860060 valid loss= 0.878835440 valid acc= 0.800000012
+## train reg_fs: 0.5398499965667725
+## Epoch: 3000 train loss=0.494013548 valid loss= 0.721590817 valid acc= 0.949999988
+## train reg_fs: 0.4839315712451935
+## Optimization Finished!
+## test loss: 0.7215908169746399, test acc: 0.949999988079071
+## 26
+## num_samples : 84
+## Epoch: 1000 train loss=0.442976654 valid loss= 0.619562447 valid acc= 0.949999988
+## train reg_fs: 0.4334219992160797
+## Epoch: 2000 train loss=0.394765377 valid loss= 0.523002207 valid acc= 0.949999988
+## train reg_fs: 0.3881967067718506
+## Epoch: 3000 train loss=0.354995072 valid loss= 0.440699160 valid acc= 0.949999988
+## train reg_fs: 0.3481259047985077
+## Optimization Finished!
+## test loss: 0.44069916009902954, test acc: 0.949999988079071
+## 22
+## num_samples : 84
+## Epoch: 1000 train loss=0.322823763 valid loss= 0.374619067 valid acc= 1.000000000
+## train reg_fs: 0.31274858117103577
+## Epoch: 2000 train loss=0.289415061 valid loss= 0.327162355 valid acc= 1.000000000
+## train reg_fs: 0.2817081809043884
+## Epoch: 3000 train loss=0.261621624 valid loss= 0.288426757 valid acc= 1.000000000
+## train reg_fs: 0.2545800507068634
+## Optimization Finished!
+## test loss: 0.2884267568588257, test acc: 1.0
+## 20
+## num_samples : 32
+## Epoch: 1000 train loss=1.034658551 valid loss= 1.159772754 valid acc= 1.000000000
+## train reg_fs: 0.9919085502624512
+## Epoch: 2000 train loss=0.953719437 valid loss= 1.069233060 valid acc= 1.000000000
+## train reg_fs: 0.9354907274246216
+## Epoch: 3000 train loss=0.892450809 valid loss= 1.001452565 valid acc= 1.000000000
+## train reg_fs: 0.8736256957054138
+## Optimization Finished!
+## test loss: 1.0014525651931763, test acc: 1.0
+## 737
+## num_samples : 32
+## Epoch: 1000 train loss=0.823999465 valid loss= 1.149300575 valid acc= 0.833333313
+## train reg_fs: 0.8098279237747192
+## Epoch: 2000 train loss=0.754330635 valid loss= 1.132464886 valid acc= 0.833333313
+## train reg_fs: 0.7429871559143066
+## Epoch: 3000 train loss=0.683510005 valid loss= 1.102321982 valid acc= 0.833333313
+## train reg_fs: 0.6761536598205566
+## Optimization Finished!
+## test loss: 1.102321982383728, test acc: 0.8333333134651184
+## 74
+## num_samples : 32
+## Epoch: 1000 train loss=0.642935932 valid loss= 0.885854781 valid acc= 0.833333313
+## train reg_fs: 0.6176947951316833
+## Epoch: 2000 train loss=0.595218062 valid loss= 0.835131049 valid acc= 0.833333313
+## train reg_fs: 0.5611858367919922
+## Epoch: 3000 train loss=0.531115532 valid loss= 0.771598816 valid acc= 0.833333313
+## train reg_fs: 0.5077548027038574
+## Optimization Finished!
+## test loss: 0.7715988159179688, test acc: 0.8333333134651184
 ## 52
-## num_samples : 84
-## Epoch: 1000 train loss=0.626983941 valid loss= 1.022547126 valid acc= 0.699999988
-## train reg_fs: 0.6016643643379211
-## Epoch: 2000 train loss=0.560835540 valid loss= 0.875077903 valid acc= 0.899999976
-## train reg_fs: 0.5426687598228455
-## Epoch: 3000 train loss=0.506900668 valid loss= 0.754294693 valid acc= 0.949999988
-## train reg_fs: 0.48825502395629883
-## Optimization Finished!
-## test loss: 0.7542946934700012, test acc: 0.949999988079071
-## 38
-## num_samples : 84
-## Epoch: 1000 train loss=0.465953678 valid loss= 0.677557349 valid acc= 0.949999988
-## train reg_fs: 0.4379555583000183
-## Epoch: 2000 train loss=0.415081769 valid loss= 0.569577932 valid acc= 0.949999988
-## train reg_fs: 0.3932769298553467
-## Epoch: 3000 train loss=0.377900332 valid loss= 0.485550523 valid acc= 0.949999988
-## train reg_fs: 0.35370704531669617
-## Optimization Finished!
-## test loss: 0.48555052280426025, test acc: 0.949999988079071
-## 35
-## num_samples : 84
-## Epoch: 1000 train loss=0.342967063 valid loss= 0.444261312 valid acc= 0.949999988
-## train reg_fs: 0.318136066198349
-## Epoch: 2000 train loss=0.323005736 valid loss= 0.387208045 valid acc= 0.949999988
-## train reg_fs: 0.2875320613384247
-## Epoch: 3000 train loss=0.287774563 valid loss= 0.341572344 valid acc= 0.949999988
-## train reg_fs: 0.260947585105896
-## Optimization Finished!
-## test loss: 0.3415723443031311, test acc: 0.949999988079071
-## 28
 ## num_samples : 32
-## Epoch: 1000 train loss=1.022076130 valid loss= 1.114683390 valid acc= 1.000000000
-## train reg_fs: 0.9914318323135376
-## Epoch: 2000 train loss=0.950590432 valid loss= 1.037892103 valid acc= 1.000000000
-## train reg_fs: 0.9351438283920288
-## Epoch: 3000 train loss=0.887621284 valid loss= 0.979984581 valid acc= 1.000000000
-## train reg_fs: 0.8734960556030273
+## Epoch: 1000 train loss=0.469875276 valid loss= 0.703926504 valid acc= 0.833333313
+## train reg_fs: 0.4567704200744629
+## Epoch: 2000 train loss=0.422494829 valid loss= 0.654970527 valid acc= 0.833333313
+## train reg_fs: 0.4104986786842346
+## Epoch: 3000 train loss=0.379862428 valid loss= 0.603472531 valid acc= 0.833333313
+## train reg_fs: 0.36914631724357605
 ## Optimization Finished!
-## test loss: 0.9799845814704895, test acc: 1.0
-## 714
+## test loss: 0.6034725308418274, test acc: 0.8333333134651184
+## 41
 ## num_samples : 32
-## Epoch: 1000 train loss=0.827015340 valid loss= 0.960125089 valid acc= 1.000000000
-## train reg_fs: 0.810273289680481
-## Epoch: 2000 train loss=0.752074003 valid loss= 0.880080640 valid acc= 1.000000000
-## train reg_fs: 0.7440645098686218
-## Epoch: 3000 train loss=0.687323093 valid loss= 0.797353029 valid acc= 1.000000000
-## train reg_fs: 0.6777405738830566
+## Epoch: 1000 train loss=0.339740425 valid loss= 0.525905669 valid acc= 0.833333313
+## train reg_fs: 0.3319685161113739
+## Epoch: 2000 train loss=0.304611951 valid loss= 0.483825505 valid acc= 0.833333313
+## train reg_fs: 0.29925212264060974
+## Epoch: 3000 train loss=0.276807666 valid loss= 0.446785033 valid acc= 0.833333313
+## train reg_fs: 0.27059632539749146
 ## Optimization Finished!
-## test loss: 0.7973530292510986, test acc: 1.0
-## 73
-## num_samples : 32
-## Epoch: 1000 train loss=0.632002711 valid loss= 1.081477880 valid acc= 0.666666687
-## train reg_fs: 0.6160396337509155
-## Epoch: 2000 train loss=0.575226128 valid loss= 1.026127815 valid acc= 0.833333313
-## train reg_fs: 0.5568188428878784
-## Epoch: 3000 train loss=0.513720512 valid loss= 0.983179212 valid acc= 0.833333313
-## train reg_fs: 0.5014159083366394
-## Optimization Finished!
-## test loss: 0.9831792116165161, test acc: 0.8333333134651184
-## 43
-## num_samples : 32
-## Epoch: 1000 train loss=0.479999125 valid loss= 0.736652732 valid acc= 0.833333313
-## train reg_fs: 0.45307087898254395
-## Epoch: 2000 train loss=0.421710044 valid loss= 0.689613640 valid acc= 0.833333313
-## train reg_fs: 0.4081820845603943
-## Epoch: 3000 train loss=0.381630152 valid loss= 0.645741880 valid acc= 0.833333313
-## train reg_fs: 0.36773681640625
-## Optimization Finished!
-## test loss: 0.645741879940033, test acc: 0.8333333134651184
-## 39
-## num_samples : 32
-## Epoch: 1000 train loss=0.363810718 valid loss= 0.771114707 valid acc= 0.833333313
-## train reg_fs: 0.33526143431663513
-## Epoch: 2000 train loss=0.351930201 valid loss= 0.737979054 valid acc= 0.833333313
-## train reg_fs: 0.30555182695388794
-## Epoch: 3000 train loss=0.304540604 valid loss= 0.688316822 valid acc= 0.833333313
-## train reg_fs: 0.27878114581108093
-## Optimization Finished!
-## test loss: 0.688316822052002, test acc: 0.8333333134651184
-## 43</code></pre>
+## test loss: 0.446785032749176, test acc: 0.8333333134651184
+## 38</code></pre>
 <pre class="r"><code>dp&lt;-DimPlot(sce.seurat, split.by = &#39;batch&#39; , ncol = 3)
 ggsave(dp, file = file.path(daseq.dir, &#39;batches.split.pdf&#39;))
 
@@ -847,42 +847,42 @@ for (i in 1:length(STG_markers$da.markers)){
   pv&lt;-VlnPlot(sce.sub, features = region_2[1:10]$gene , group.by =&#39;da.pred.bin.label&#39; )
   ggsave(pv, file = file.path(daseq.dir, paste0(&#39;top_region_&#39;, i,&#39;.pdf&#39;)), width = 20, height = 30, units = &#39;cm&#39;)
 }</code></pre>
-<pre><code>##               gene avg_logFC      p_value
-##   1:          Apod 3.6087416 4.400616e-61
-##   2:          Osr2 3.3450601 3.869057e-56
-##   3:          Gas1 2.8932365 2.630517e-54
-##   4:           Fst 3.2248433 6.781890e-54
-##   5:        Ctla2a 4.5678976 9.968275e-50
-##  ---                                     
-## 311: 2700089E24Rik 0.5636408 7.170455e-03
-## 312:        Ndufv3 0.7802646 7.795480e-03
-## 313:          Maff 0.5499167 8.227890e-03
-## 314:         Trip6 0.6414154 8.959464e-03
-## 315:       Abhd14b 1.3168843 9.239915e-03</code></pre>
-<pre><code>##               gene  avg_logFC       p_value
-##   1:        Trim29  6.4423178 9.611054e-227
-##   2:          Pkp1  5.4942640 6.880149e-190
-##   3:        Celsr2  5.8021578 5.733870e-186
-##   4: 1190003J15Rik  5.6183091 4.003599e-172
-##   5:        Bcl11a  5.2250291 8.508845e-161
-##  ---                                       
-## 465:      Tnfrsf1a  0.3790442  7.173537e-03
-## 466:         Anxa2 -0.1999989  8.417456e-03
-## 467:         Emc10  0.3945557  9.164886e-03
-## 468:         Rn45s -0.1041098  9.372423e-03
-## 469:           Ryk  0.3231047  9.657916e-03</code></pre>
-<pre><code>##         gene avg_logFC      p_value
-##   1:   Mmp10 3.2565049 1.300282e-25
-##   2:  Col6a4 3.2625322 1.086675e-20
-##   3:    Etv4 3.3090240 1.652450e-20
-##   4:    Fbn2 3.7727421 1.072979e-18
-##   5:   Foxl1 3.5903656 2.891393e-18
+<pre><code>##        gene avg_logFC      p_value
+##   1:   Apod 3.6087416 4.400616e-61
+##   2:   Osr2 3.3450601 3.869057e-56
+##   3:   Gas1 2.8932365 2.630517e-54
+##   4:    Fst 3.2248433 6.781890e-54
+##   5: Ctla2a 4.5678976 9.968275e-50
+##  ---                              
+## 306:    C1d 0.9995466 7.453457e-03
+## 307:  Gstm5 1.0829472 8.089937e-03
+## 308:  Blvrb 1.2124816 8.273648e-03
+## 309:  Glud1 0.4116755 8.820157e-03
+## 310:  Strn3 0.4098708 9.151682e-03</code></pre>
+<pre><code>##               gene   avg_logFC       p_value
+##   1:        Trim29  6.44231783 9.611054e-227
+##   2:          Pkp1  5.49426401 6.880149e-190
+##   3:        Celsr2  5.80215778 5.733870e-186
+##   4:          Dsc3  5.18794218 8.509447e-176
+##   5: 1190003J15Rik  5.61830914 4.003599e-172
+##  ---                                        
+## 466:        Ppp3ca  0.34634591  6.926656e-03
+## 467:          Tpm2  0.08361507  7.070530e-03
+## 468:          Junb -0.22190389  7.584926e-03
+## 469:         Anxa2 -0.19999891  8.417456e-03
+## 470:         Rn45s -0.10410975  9.372423e-03</code></pre>
+<pre><code>##        gene  avg_logFC      p_value
+##   1:  Mmp10  3.2565049 1.300282e-25
+##   2: Col6a4  3.2625322 1.086675e-20
+##   3:   Fbn2  3.7727421 1.072979e-18
+##   4:  Foxl1  3.5903656 2.891393e-18
+##   5:  Inhba  3.0842734 7.246118e-18
 ##  ---                               
-## 194:  Dnajc3 0.7829787 9.580035e-03
-## 195:   Acta2 0.7538293 9.619177e-03
-## 196: Plekhh2 1.0883268 9.815306e-03
-## 197:     Eng 1.0608497 9.815704e-03
-## 198:    Gusb 1.0071446 9.855808e-03</code></pre>
+## 187:   Pim1 -1.4133427 8.787636e-03
+## 188: Ndufs3  1.2077530 9.362957e-03
+## 189:  Acta2  0.7538293 9.619177e-03
+## 190:  Eif3a  0.6812234 9.756517e-03
+## 191: Cox6a1  0.5890282 9.906662e-03</code></pre>
 <pre class="r"><code>mdf&lt;-as.data.table(sce.seurat@meta.data)
 summary.da&lt;- mdf[, .N, by = c( &#39;seurat_clusters&#39;,&#39;condition&#39;, &#39;da.pred.bin.label&#39;)] %&gt;% arrange(seurat_clusters)
 summary.da&lt;-as.data.table(summary.da)
@@ -1087,6 +1087,132 @@ ggsave(targets.targets.zeb1.icaf, file = file.path(tf.dir, &#39;targets_of_targe
 
 targets.targets.zeb1.vacf&lt;-VlnPlot(sce.seurat, features = intersect(net2$target, vcaf.de$genes), split.by = &#39;condition&#39;)
 ggsave(targets.targets.zeb1.vacf, file = file.path(tf.dir, &#39;targets_of_targets_of_zeb1_vCAF.pdf&#39;), height = 60, width = 40, units = &#39;cm&#39;, limitsize = F)</code></pre>
+<pre class="r"><code>sessionInfo()</code></pre>
+<pre><code>## R version 4.1.2 (2021-11-01)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 22.04.3 LTS
+## 
+## Matrix products: default
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so
+## 
+## locale:
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=de_DE.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=de_DE.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=de_DE.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=de_DE.UTF-8 LC_IDENTIFICATION=C       
+## 
+## attached base packages:
+## [1] stats4    stats     graphics  grDevices utils     datasets  methods  
+## [8] base     
+## 
+## other attached packages:
+##  [1] pheatmap_1.0.12             tidyr_1.3.0                
+##  [3] tibble_3.2.1                dorothea_1.6.0             
+##  [5] decoupleR_2.7.1             dplyr_1.1.3                
+##  [7] data.table_1.14.8           harmony_1.1.0              
+##  [9] Rcpp_1.0.11                 DAseq_1.0.0                
+## [11] patchwork_1.1.3             stringr_1.5.0              
+## [13] SeuratObject_4.1.4          Seurat_4.4.0               
+## [15] scran_1.22.1                scater_1.22.0              
+## [17] ggplot2_3.4.4               scuttle_1.4.0              
+## [19] SingleCellExperiment_1.16.0 SummarizedExperiment_1.24.0
+## [21] Biobase_2.54.0              GenomicRanges_1.46.1       
+## [23] GenomeInfoDb_1.30.1         IRanges_2.28.0             
+## [25] S4Vectors_0.32.4            BiocGenerics_0.40.0        
+## [27] MatrixGenerics_1.6.0        matrixStats_1.0.0          
+## 
+## loaded via a namespace (and not attached):
+##   [1] rappdirs_0.3.3            scattermore_1.2          
+##   [3] ModelMetrics_1.2.2.2      ragg_1.2.6               
+##   [5] bit64_4.0.5               knitr_1.44               
+##   [7] irlba_2.3.5.1             DelayedArray_0.20.0      
+##   [9] rpart_4.1.16              hardhat_1.3.0            
+##  [11] RCurl_1.98-1.12           generics_0.1.3           
+##  [13] ScaledMatrix_1.2.0        RhpcBLASctl_0.23-42      
+##  [15] cowplot_1.1.1             RANN_2.6.1               
+##  [17] proxy_0.4-27              future_1.33.0            
+##  [19] bit_4.0.5                 tzdb_0.4.0               
+##  [21] spatstat.data_3.0-1       xml2_1.3.5               
+##  [23] lubridate_1.9.3           httpuv_1.6.11            
+##  [25] viridis_0.6.4             gower_1.0.1              
+##  [27] xfun_0.40                 hms_1.1.3                
+##  [29] jquerylib_0.1.4           evaluate_0.22            
+##  [31] promises_1.2.1            fansi_1.0.5              
+##  [33] progress_1.2.2            readxl_1.4.3             
+##  [35] igraph_1.5.1              htmlwidgets_1.6.2        
+##  [37] spatstat.geom_3.2-5       purrr_1.0.2              
+##  [39] ellipsis_0.3.2            selectr_0.4-2            
+##  [41] backports_1.4.1           deldir_1.0-9             
+##  [43] sparseMatrixStats_1.6.0   vctrs_0.6.4              
+##  [45] ROCR_1.0-11               abind_1.4-5              
+##  [47] caret_6.0-94              cachem_1.0.8             
+##  [49] withr_2.5.1               progressr_0.14.0         
+##  [51] checkmate_2.3.0           vroom_1.6.4              
+##  [53] sctransform_0.4.0         prettyunits_1.2.0        
+##  [55] goftest_1.2-3             cluster_2.1.2            
+##  [57] lazyeval_0.2.2            crayon_1.5.2             
+##  [59] spatstat.explore_3.2-3    glmnet_4.1-8             
+##  [61] edgeR_3.36.0              recipes_1.0.8            
+##  [63] pkgconfig_2.0.3           labeling_0.4.3           
+##  [65] nlme_3.1-155              vipor_0.4.5              
+##  [67] nnet_7.3-17               rlang_1.1.1              
+##  [69] globals_0.16.2            lifecycle_1.0.3          
+##  [71] miniUI_0.1.1.1            rsvd_1.0.5               
+##  [73] cellranger_1.1.0          polyclip_1.10-6          
+##  [75] lmtest_0.9-40             Matrix_1.6-1.1           
+##  [77] zoo_1.8-12                beeswarm_0.4.0           
+##  [79] ggridges_0.5.4            png_0.1-8                
+##  [81] viridisLite_0.4.2         bitops_1.0-7             
+##  [83] KernSmooth_2.23-20        pROC_1.18.4              
+##  [85] DelayedMatrixStats_1.16.0 shape_1.4.6              
+##  [87] parallelly_1.36.0         spatstat.random_3.1-6    
+##  [89] readr_2.1.4               beachmat_2.10.0          
+##  [91] scales_1.2.1              magrittr_2.0.3           
+##  [93] plyr_1.8.9                ica_1.0-3                
+##  [95] zlibbioc_1.40.0           compiler_4.1.2           
+##  [97] dqrng_0.3.1               RColorBrewer_1.1-3       
+##  [99] fitdistrplus_1.1-11       cli_3.6.1                
+## [101] XVector_0.34.0            listenv_0.9.0            
+## [103] pbapply_1.7-2             MASS_7.3-55              
+## [105] tidyselect_1.2.0          stringi_1.7.12           
+## [107] textshaping_0.3.7         yaml_2.3.7               
+## [109] BiocSingular_1.10.0       locfit_1.5-9.8           
+## [111] ggrepel_0.9.4             grid_4.1.2               
+## [113] sass_0.4.7                bcellViper_1.30.0        
+## [115] tools_4.1.2               timechange_0.2.0         
+## [117] future.apply_1.11.0       parallel_4.1.2           
+## [119] rstudioapi_0.15.0         bluster_1.4.0            
+## [121] foreach_1.5.2             metapod_1.2.0            
+## [123] gridExtra_2.3             prodlim_2023.08.28       
+## [125] farver_2.1.1              Rtsne_0.16               
+## [127] digest_0.6.33             shiny_1.7.5.1            
+## [129] lava_1.7.2.1              later_1.3.1              
+## [131] RcppAnnoy_0.0.21          httr_1.4.7               
+## [133] colorspace_2.1-0          rvest_1.0.3              
+## [135] tensor_1.5                reticulate_1.34.0        
+## [137] splines_4.1.2             uwot_0.1.16              
+## [139] statmod_1.5.0             OmnipathR_3.11.1         
+## [141] spatstat.utils_3.0-3      sp_2.1-1                 
+## [143] plotly_4.10.2             systemfonts_1.0.5        
+## [145] xtable_1.8-4              jsonlite_1.8.7           
+## [147] timeDate_4022.108         ipred_0.9-14             
+## [149] R6_2.5.1                  pillar_1.9.0             
+## [151] htmltools_0.5.6.1         mime_0.12                
+## [153] glue_1.6.2                fastmap_1.1.1            
+## [155] BiocParallel_1.28.3       BiocNeighbors_1.12.0     
+## [157] class_7.3-20              codetools_0.2-18         
+## [159] utf8_1.2.3                lattice_0.20-45          
+## [161] bslib_0.5.1               spatstat.sparse_3.0-2    
+## [163] logger_0.2.2              curl_5.1.0               
+## [165] ggbeeswarm_0.7.2          leiden_0.4.3             
+## [167] survival_3.2-13           limma_3.50.3             
+## [169] rmarkdown_2.25            munsell_0.5.0            
+## [171] e1071_1.7-13              GenomeInfoDbData_1.2.7   
+## [173] iterators_1.0.14          reshape2_1.4.4           
+## [175] gtable_0.3.4</code></pre>
 </div>
 </div>
 
